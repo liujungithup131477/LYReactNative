@@ -50,7 +50,8 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig     = {
       "CLANG_CXX_LANGUAGE_STANDARD" => "c++14",
       'OTHER_LDFLAGS' => '-ObjC',
-      'HEADER_SEARCH_PATHS' => '\'$(PODS_ROOT)/Folly\' \'$(PODS_ROOT)/boost-for-react-native\'  \'$(PODS_ROOT)/DoubleConversion\' \'$(PODS_TARGET_SRCROOT)/BRCIotSmartLifeRN/CodePush\''
+      'HEADER_SEARCH_PATHS' => '\'$(PODS_ROOT)/Folly\' \'$(PODS_ROOT)/boost-for-react-native\'  \'$(PODS_ROOT)/DoubleConversion\' \'$(PODS_TARGET_SRCROOT)/BRCIotSmartLifeRN/CodePush\'',
+      'VALID_ARCHS[sdk=iphonesimulator*]' => ''
   }
 
   s.cocoapods_version       = ">= 1.2.0"

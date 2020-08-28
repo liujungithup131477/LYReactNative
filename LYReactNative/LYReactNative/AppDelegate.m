@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <React/RCTLog.h>
 
 @interface AppDelegate ()
 

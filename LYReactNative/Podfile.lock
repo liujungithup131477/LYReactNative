@@ -1,0 +1,109 @@
+PODS:
+  - boost-for-react-native (1.63.0)
+  - DoubleConversion (1.1.5)
+  - Folly (2016.09.26.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+  - glog (0.3.4)
+  - LYReactNative (0.57.8):
+    - LYReactNative/React (= 0.57.8)
+  - LYReactNative/React (0.57.8):
+    - LYReactNative/React/Core (= 0.57.8)
+    - LYReactNative/React/CxxBridge (= 0.57.8)
+    - LYReactNative/React/cxxreact (= 0.57.8)
+    - LYReactNative/React/DevSupport (= 0.57.8)
+    - LYReactNative/React/fishhook (= 0.57.8)
+    - LYReactNative/React/jschelpers (= 0.57.8)
+    - LYReactNative/React/jsinspector (= 0.57.8)
+    - LYReactNative/React/PrivateDatabase (= 0.57.8)
+    - LYReactNative/React/RCTAnimation (= 0.57.8)
+    - LYReactNative/React/RCTBlob (= 0.57.8)
+    - LYReactNative/React/RCTGeolocation (= 0.57.8)
+    - LYReactNative/React/RCTImage (= 0.57.8)
+    - LYReactNative/React/RCTLinkingIOS (= 0.57.8)
+    - LYReactNative/React/RCTNetwork (= 0.57.8)
+    - LYReactNative/React/RCTText (= 0.57.8)
+    - LYReactNative/React/RCTWebSocket (= 0.57.8)
+  - LYReactNative/React/Core (0.57.8):
+    - LYReactNative/React/Core/Base (= 0.57.8)
+    - LYReactNative/React/Core/Modules (= 0.57.8)
+    - LYReactNative/React/Core/Profiler (= 0.57.8)
+    - LYReactNative/React/Core/UIUtils (= 0.57.8)
+    - LYReactNative/React/Core/Views (= 0.57.8)
+    - Yoga
+  - LYReactNative/React/Core/Base (0.57.8):
+    - Yoga
+  - LYReactNative/React/Core/Modules (0.57.8):
+    - Yoga
+  - LYReactNative/React/Core/Profiler (0.57.8):
+    - Yoga
+  - LYReactNative/React/Core/UIUtils (0.57.8):
+    - Yoga
+  - LYReactNative/React/Core/Views (0.57.8):
+    - Yoga
+  - LYReactNative/React/CxxBridge (0.57.8):
+    - Folly (= 2016.09.26.00)
+    - LYReactNative/React/Core
+    - LYReactNative/React/cxxreact
+  - LYReactNative/React/cxxreact (0.57.8):
+    - boost-for-react-native (= 1.63.0)
+    - Folly (= 2016.09.26.00)
+    - LYReactNative/React/jschelpers
+    - LYReactNative/React/jsinspector
+  - LYReactNative/React/DevSupport (0.57.8):
+    - LYReactNative/React/Core
+    - LYReactNative/React/RCTWebSocket
+  - LYReactNative/React/fishhook (0.57.8)
+  - LYReactNative/React/jschelpers (0.57.8):
+    - Folly (= 2016.09.26.00)
+    - LYReactNative/React/PrivateDatabase
+  - LYReactNative/React/jsinspector (0.57.8)
+  - LYReactNative/React/PrivateDatabase (0.57.8)
+  - LYReactNative/React/RCTAnimation (0.57.8):
+    - LYReactNative/React/Core
+  - LYReactNative/React/RCTBlob (0.57.8):
+    - LYReactNative/React/Core
+  - LYReactNative/React/RCTGeolocation (0.57.8):
+    - LYReactNative/React/Core
+  - LYReactNative/React/RCTImage (0.57.8):
+    - LYReactNative/React/Core
+    - LYReactNative/React/RCTNetwork
+  - LYReactNative/React/RCTLinkingIOS (0.57.8):
+    - LYReactNative/React/Core
+  - LYReactNative/React/RCTNetwork (0.57.8):
+    - LYReactNative/React/Core
+  - LYReactNative/React/RCTText (0.57.8):
+    - LYReactNative/React/Core
+  - LYReactNative/React/RCTWebSocket (0.57.8):
+    - LYReactNative/React/Core
+    - LYReactNative/React/fishhook
+    - LYReactNative/React/RCTBlob
+  - Yoga (1.14.0)
+
+DEPENDENCIES:
+  - LYReactNative (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - boost-for-react-native
+    - DoubleConversion
+    - Folly
+    - glog
+    - Yoga
+
+EXTERNAL SOURCES:
+  LYReactNative:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  DoubleConversion: e22e0762848812a87afd67ffda3998d9ef29170c
+  Folly: 211775e49d8da0ca658aebc8eab89d642935755c
+  glog: 1de0bb937dccdc981596d3b5825ebfb765017ded
+  LYReactNative: 1b4e95831e25ba1f677a45d24e9b5e102ecbd6c8
+  Yoga: cff67a400f6b74dc38eb0bad4f156673d9aa980c
+
+PODFILE CHECKSUM: 46fa8439131db338da8a82c2d05d81f5e75d1698
+
+COCOAPODS: 1.9.3

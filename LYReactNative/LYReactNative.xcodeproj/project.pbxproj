@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63CFA55191FD42CBA0501C1C /* libPods-LYReactNativeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F68DE32E241BD59115828F /* libPods-LYReactNativeUITests.a */; };
 		8448996E24F7DC960062AB41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8448996D24F7DC960062AB41 /* AppDelegate.m */; };
 		8448997124F7DC960062AB41 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8448997024F7DC960062AB41 /* SceneDelegate.m */; };
 		8448997424F7DC960062AB41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8448997324F7DC960062AB41 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 		8448997F24F7DC980062AB41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8448997E24F7DC980062AB41 /* main.m */; };
 		8448998924F7DC980062AB41 /* LYReactNativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8448998824F7DC980062AB41 /* LYReactNativeTests.m */; };
 		8448999424F7DC980062AB41 /* LYReactNativeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8448999324F7DC980062AB41 /* LYReactNativeUITests.m */; };
+		DEA3B6992F7B85D5852E46DA /* libPods-LYReactNativeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90ED0E270541A8A88057D8D7 /* libPods-LYReactNativeTests.a */; };
+		E68AB091BB910FCC2B11D2F1 /* libPods-LYReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B66F55D7E1D7C239B666F6 /* libPods-LYReactNative.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12B66F55D7E1D7C239B666F6 /* libPods-LYReactNative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LYReactNative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		575BD9884EF1DD9CC7833835 /* Pods-LYReactNativeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYReactNativeTests.debug.xcconfig"; path = "Target Support Files/Pods-LYReactNativeTests/Pods-LYReactNativeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8448996924F7DC960062AB41 /* LYReactNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYReactNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8448996C24F7DC960062AB41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8448996D24F7DC960062AB41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +59,13 @@
 		8448998F24F7DC980062AB41 /* LYReactNativeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYReactNativeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8448999324F7DC980062AB41 /* LYReactNativeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYReactNativeUITests.m; sourceTree = "<group>"; };
 		8448999524F7DC980062AB41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90ED0E270541A8A88057D8D7 /* libPods-LYReactNativeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LYReactNativeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F68DE32E241BD59115828F /* libPods-LYReactNativeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LYReactNativeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE7B680002FDB72C13484AE /* Pods-LYReactNative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYReactNative.debug.xcconfig"; path = "Target Support Files/Pods-LYReactNative/Pods-LYReactNative.debug.xcconfig"; sourceTree = "<group>"; };
+		D6A64E207F2005ED322FEC6D /* Pods-LYReactNativeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYReactNativeTests.release.xcconfig"; path = "Target Support Files/Pods-LYReactNativeTests/Pods-LYReactNativeTests.release.xcconfig"; sourceTree = "<group>"; };
+		DB04362E7F3306EB3DA66B33 /* Pods-LYReactNativeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYReactNativeUITests.debug.xcconfig"; path = "Target Support Files/Pods-LYReactNativeUITests/Pods-LYReactNativeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F34DFC53CC329E9EBE60E44A /* Pods-LYReactNative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYReactNative.release.xcconfig"; path = "Target Support Files/Pods-LYReactNative/Pods-LYReactNative.release.xcconfig"; sourceTree = "<group>"; };
+		FA639DA03134327B09B0B4D3 /* Pods-LYReactNativeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYReactNativeUITests.release.xcconfig"; path = "Target Support Files/Pods-LYReactNativeUITests/Pods-LYReactNativeUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E68AB091BB910FCC2B11D2F1 /* libPods-LYReactNative.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEA3B6992F7B85D5852E46DA /* libPods-LYReactNativeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +89,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63CFA55191FD42CBA0501C1C /* libPods-LYReactNativeUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26F05CBA56F1E70E62EDE2F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEE7B680002FDB72C13484AE /* Pods-LYReactNative.debug.xcconfig */,
+				F34DFC53CC329E9EBE60E44A /* Pods-LYReactNative.release.xcconfig */,
+				575BD9884EF1DD9CC7833835 /* Pods-LYReactNativeTests.debug.xcconfig */,
+				D6A64E207F2005ED322FEC6D /* Pods-LYReactNativeTests.release.xcconfig */,
+				DB04362E7F3306EB3DA66B33 /* Pods-LYReactNativeUITests.debug.xcconfig */,
+				FA639DA03134327B09B0B4D3 /* Pods-LYReactNativeUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		680440006124DB46E82E9D3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12B66F55D7E1D7C239B666F6 /* libPods-LYReactNative.a */,
+				90ED0E270541A8A88057D8D7 /* libPods-LYReactNativeTests.a */,
+				A3F68DE32E241BD59115828F /* libPods-LYReactNativeUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8448996024F7DC960062AB41 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +126,8 @@
 				8448998724F7DC980062AB41 /* LYReactNativeTests */,
 				8448999224F7DC980062AB41 /* LYReactNativeUITests */,
 				8448996A24F7DC960062AB41 /* Products */,
+				26F05CBA56F1E70E62EDE2F6 /* Pods */,
+				680440006124DB46E82E9D3B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,6 +184,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8448999824F7DC980062AB41 /* Build configuration list for PBXNativeTarget "LYReactNative" */;
 			buildPhases = (
+				A497F4D521CF86C1ED07A8AE /* [CP] Check Pods Manifest.lock */,
 				8448996524F7DC960062AB41 /* Sources */,
 				8448996624F7DC960062AB41 /* Frameworks */,
 				8448996724F7DC960062AB41 /* Resources */,
@@ -161,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8448999B24F7DC980062AB41 /* Build configuration list for PBXNativeTarget "LYReactNativeTests" */;
 			buildPhases = (
+				6A51A7A6FC51223F53ABFFBC /* [CP] Check Pods Manifest.lock */,
 				8448998024F7DC980062AB41 /* Sources */,
 				8448998124F7DC980062AB41 /* Frameworks */,
 				8448998224F7DC980062AB41 /* Resources */,
@@ -179,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8448999E24F7DC980062AB41 /* Build configuration list for PBXNativeTarget "LYReactNativeUITests" */;
 			buildPhases = (
+				099D82E792A33D62F947016C /* [CP] Check Pods Manifest.lock */,
 				8448998B24F7DC980062AB41 /* Sources */,
 				8448998C24F7DC980062AB41 /* Frameworks */,
 				8448998D24F7DC980062AB41 /* Resources */,
@@ -261,6 +304,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		099D82E792A33D62F947016C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LYReactNativeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A51A7A6FC51223F53ABFFBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LYReactNativeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A497F4D521CF86C1ED07A8AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LYReactNative-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8448996524F7DC960062AB41 /* Sources */ = {
@@ -437,9 +549,11 @@
 		};
 		8448999924F7DC980062AB41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEE7B680002FDB72C13484AE /* Pods-LYReactNative.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CF947SQRGB;
 				INFOPLIST_FILE = LYReactNative/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -454,9 +568,11 @@
 		};
 		8448999A24F7DC980062AB41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F34DFC53CC329E9EBE60E44A /* Pods-LYReactNative.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CF947SQRGB;
 				INFOPLIST_FILE = LYReactNative/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -471,6 +587,7 @@
 		};
 		8448999C24F7DC980062AB41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 575BD9884EF1DD9CC7833835 /* Pods-LYReactNativeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -490,6 +607,7 @@
 		};
 		8448999D24F7DC980062AB41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6A64E207F2005ED322FEC6D /* Pods-LYReactNativeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -509,6 +627,7 @@
 		};
 		8448999F24F7DC980062AB41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB04362E7F3306EB3DA66B33 /* Pods-LYReactNativeUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LYReactNativeUITests/Info.plist;
@@ -526,6 +645,7 @@
 		};
 		844899A024F7DC980062AB41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA639DA03134327B09B0B4D3 /* Pods-LYReactNativeUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LYReactNativeUITests/Info.plist;
