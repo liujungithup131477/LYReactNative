@@ -28,11 +28,11 @@ codePushPackage = JSON.parse(File.read(File.join(__dir__, 'node_modules/react-na
 Pod::Spec.new do |s|
 
   s.name         = "LYReactNative"
-  s.version      = "0.57.8"
+  s.version      = "0.57.8.1"
   s.summary      = "pod for ReactNative."
 
   s.description  = <<-DESC
-                    pod for ReactNative with RN v0.57.8.
+                    pod for ReactNative with RN v0.57.8.1.
                    DESC
 
   s.homepage     = "https://github.com/liujungithup131477/LYReactNative"
